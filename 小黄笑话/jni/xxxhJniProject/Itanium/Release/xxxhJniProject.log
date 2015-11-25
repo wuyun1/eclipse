@@ -1,0 +1,25 @@
+﻿生成启动时间为 2015/11/24 19:20:58。
+     1>项目“D:\Users\Administrator\workspace\小黄笑话\jni\xxxhJniProject\xxxhJniProject.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Itanium\Release\xxxhJniProject.unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_ia64\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /GL /D _WINDLL /D _MBCS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Itanium\Release\\" /Fd"Itanium\Release\vc100.pdb" /Gd /TC /errorReport:prompt java\RunCmd.c
+         RunCmd.c
+     1>java\RunCmd.c(47): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\Program Files\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+       Link:
+         d:\Program Files\Microsoft Visual Studio 10.0\VC\bin\x86_ia64\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Users\Administrator\workspace\小黄笑话\jni\xxxhJniProject\Itanium\Release\xxxhJniProject.dll" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Itanium\Release\xxxhJniProject.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\Users\Administrator\workspace\小黄笑话\jni\xxxhJniProject\Itanium\Release\xxxhJniProject.pdb" /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Users\Administrator\workspace\小黄笑话\jni\xxxhJniProject\Itanium\Release\xxxhJniProject.lib" /MACHINE:IA64 /DLL Itanium\Release\RunCmd.obj
+            正在创建库 D:\Users\Administrator\workspace\小黄笑话\jni\xxxhJniProject\Itanium\Release\xxxhJniProject.lib 和对象 D:\Users\Administrator\workspace\小黄笑话\jni\xxxhJniProject\Itanium\Release\xxxhJniProject.exp
+         正在生成代码
+         已完成代码的生成
+         xxxhJniProject.vcxproj -> D:\Users\Administrator\workspace\小黄笑话\jni\xxxhJniProject\Itanium\Release\xxxhJniProject.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\Users\Administrator\workspace\小黄笑话\jni\xxxhJniProject\Itanium\Release\xxxhJniProject.dll;#2" /manifest Itanium\Release\xxxhJniProject.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Itanium\Release\xxxhJniProject.unsuccessfulbuild”。
+         正在对“Itanium\Release\xxxhJniProject.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“D:\Users\Administrator\workspace\小黄笑话\jni\xxxhJniProject\xxxhJniProject.vcxproj”(rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:02.06
